@@ -33,13 +33,14 @@ public class PositivWebMozillaTest {
 	String baseUrl, nodeURL;
 
 	
-	//public System.setProperty("webdriver.gecko.driver", "D:\Browsers\geckodriver.exe");
-	//public WebDriver driver = new FirefoxDriver();
+
 	
 	// Firefox Windows
 	public String st = System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 	public WebDriver driver = new FirefoxDriver();
 
+	
+	
 	// @BeforeTest
 	// public void setUp() throws MalformedURLException {
 	// //baseUrl = "https://stage1.tascportal.org";
